@@ -9,4 +9,6 @@ var Todo = new Schema({
 
 mongoose.model( 'Todo', Todo );
 
+// Clever Cloud connection
+// mongoose.connect( 'mongodb://db_username:db_password@db_host/db_name' );
 mongoose.connect( 'mongodb://localhost/nodemongo' );

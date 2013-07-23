@@ -13,7 +13,7 @@ exports.index = function ( req, res, next ){
       if( err ) return next( err );
 
       res.render( 'index', {
-          title : 'Express Todo Example',
+          title : 'Node.js + MongoDB Todo Example',
           todos : todos
       });
     });
